@@ -6,8 +6,7 @@
 //
 
 import XCTest
-@testable import FunWalletApp
-
+ 
 class FunWalletAppTests: XCTestCase {
 
     override func setUpWithError() throws {

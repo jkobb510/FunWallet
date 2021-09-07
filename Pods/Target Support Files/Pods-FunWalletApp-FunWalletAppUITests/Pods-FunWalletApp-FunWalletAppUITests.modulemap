@@ -1,0 +1,6 @@
+framework module Pods_FunWalletApp_FunWalletAppUITests {
+  umbrella header "Pods-FunWalletApp-FunWalletAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

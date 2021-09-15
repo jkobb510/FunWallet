@@ -18,9 +18,8 @@ class PreferredTiming: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        button1.backgroundColor = UIColor.systemGray4
-        button2.backgroundColor = UIColor.systemGray4
-        button3.backgroundColor = UIColor.systemGray4
+        
+        
     }
 
     @IBAction func button1Tapped(_ sender: UIButton) {

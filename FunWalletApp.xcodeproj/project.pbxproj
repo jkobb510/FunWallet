@@ -28,6 +28,10 @@
 		16D3880F26C3651900891E69 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3880E26C3651900891E69 /* Helper.swift */; };
 		16D3881126C36D5500891E69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3881026C36D5500891E69 /* Constants.swift */; };
 		16D3881326C382B400891E69 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3881226C382B400891E69 /* SettingsViewController.swift */; };
+		16DC818326ED28BB0015C09B /* LocationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC818226ED28BB0015C09B /* LocationContentView.swift */; };
+		16DC818526ED42580015C09B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC818426ED42580015C09B /* SearchView.swift */; };
+		16DC818726EDA4510015C09B /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC818626EDA4510015C09B /* TileViewController.swift */; };
+		16DC818926EDA68E0015C09B /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC818826EDA68E0015C09B /* TileView.swift */; };
 		16DE170926CC90860004DEC1 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE170826CC90860004DEC1 /* UserDefaults+Extension.swift */; };
 		16DE170B26CCC40F0004DEC1 /* SelectLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE170A26CCC40F0004DEC1 /* SelectLocation.swift */; };
 		16DE170D26CCC4650004DEC1 /* PreferredSpending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE170C26CCC4650004DEC1 /* PreferredSpending.swift */; };
@@ -91,6 +95,10 @@
 		16D3880E26C3651900891E69 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		16D3881026C36D5500891E69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		16D3881226C382B400891E69 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		16DC818226ED28BB0015C09B /* LocationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationContentView.swift; sourceTree = "<group>"; };
+		16DC818426ED42580015C09B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		16DC818626EDA4510015C09B /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
+		16DC818826EDA68E0015C09B /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		16DE170826CC90860004DEC1 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		16DE170A26CCC40F0004DEC1 /* SelectLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLocation.swift; sourceTree = "<group>"; };
 		16DE170C26CCC4650004DEC1 /* PreferredSpending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredSpending.swift; sourceTree = "<group>"; };
@@ -203,16 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				162AC67726DE750F0012A3D2 /* ProfileSettings.swift */,
-				16D1950B26C97CF900F33EA0 /* Slider.swift */,
-				1602654626BCFCCA000CA4FA /* LoadingViewController.swift */,
 				16D3881226C382B400891E69 /* SettingsViewController.swift */,
-				167959B326C6274200B3911E /* LoginViewController.swift */,
-				16E723DA26CB0B7200B27AB7 /* SignUpViewController.swift */,
 				161E3F2B26D73DD800ED70B3 /* ViewController.swift */,
-				16F2273226CC651A0099888D /* PreferredTiming.swift */,
-				16DE170A26CCC40F0004DEC1 /* SelectLocation.swift */,
-				16DE170C26CCC4650004DEC1 /* PreferredSpending.swift */,
-				16DE170E26CCC4A70004DEC1 /* ChooseEvents.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +243,11 @@
 				161E3F2526D73D9C00ED70B3 /* CircularImageView.swift */,
 				16DE170826CC90860004DEC1 /* UserDefaults+Extension.swift */,
 				162AC67926DE99C80012A3D2 /* Utilities.swift */,
+				16DC818426ED42580015C09B /* SearchView.swift */,
+				16DC818226ED28BB0015C09B /* LocationContentView.swift */,
+				16D1950B26C97CF900F33EA0 /* Slider.swift */,
+				16DC818626EDA4510015C09B /* TileViewController.swift */,
+				16DC818826EDA68E0015C09B /* TileView.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -260,6 +265,13 @@
 			children = (
 				16E723D626C9C56100B27AB7 /* OnboardingCollectionViewCell.swift */,
 				167959B526C74A3F00B3911E /* OnboardingViewController.swift */,
+				167959B326C6274200B3911E /* LoginViewController.swift */,
+				16E723DA26CB0B7200B27AB7 /* SignUpViewController.swift */,
+				1602654626BCFCCA000CA4FA /* LoadingViewController.swift */,
+				16DE170A26CCC40F0004DEC1 /* SelectLocation.swift */,
+				16F2273226CC651A0099888D /* PreferredTiming.swift */,
+				16DE170C26CCC4650004DEC1 /* PreferredSpending.swift */,
+				16DE170E26CCC4A70004DEC1 /* ChooseEvents.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -528,12 +540,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E3C0C126DC112D00AE996D /* AppDelegate.swift in Sources */,
+				16DC818326ED28BB0015C09B /* LocationContentView.swift in Sources */,
+				16DC818726EDA4510015C09B /* TileViewController.swift in Sources */,
 				16E723D726C9C56100B27AB7 /* OnboardingCollectionViewCell.swift in Sources */,
 				162AC67826DE750F0012A3D2 /* ProfileSettings.swift in Sources */,
 				16D3881126C36D5500891E69 /* Constants.swift in Sources */,
 				161E3F2626D73D9C00ED70B3 /* CircularImageView.swift in Sources */,
 				1602651826BCE695000CA4FA /* SceneDelegate.swift in Sources */,
 				1602654726BCFCCA000CA4FA /* LoadingViewController.swift in Sources */,
+				16DC818526ED42580015C09B /* SearchView.swift in Sources */,
 				161E3F2C26D73DD800ED70B3 /* ViewController.swift in Sources */,
 				16D1950A26C834B300F33EA0 /* OnBoardingSlide.swift in Sources */,
 				16DE170926CC90860004DEC1 /* UserDefaults+Extension.swift in Sources */,
@@ -546,6 +561,7 @@
 				167959B626C74A3F00B3911E /* OnboardingViewController.swift in Sources */,
 				16DE170D26CCC4650004DEC1 /* PreferredSpending.swift in Sources */,
 				16F2273326CC651A0099888D /* PreferredTiming.swift in Sources */,
+				16DC818926EDA68E0015C09B /* TileView.swift in Sources */,
 				16D1950626C8307C00F33EA0 /* UIView+Extension.swift in Sources */,
 				16D1950C26C97CF900F33EA0 /* Slider.swift in Sources */,
 				16DE170F26CCC4A70004DEC1 /* ChooseEvents.swift in Sources */,

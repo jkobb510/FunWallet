@@ -1,0 +1,66 @@
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Curated For You",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Golden Gate Bridge",
+                "host": "John H.",
+                "price": 50,
+                "restrictions": ["G"],
+                "description": "Break the ice with a tour of the most iconic structure in San Francisco. The Frommer's travel guide describes the Golden Gate Bridge as \"possibly the most beautiful, certainly the most photographed, bridge in the world.\""
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Muir Woods",
+                "host": "Joseph G.",
+                "price": 40,
+                "restrictions": ["D", "G", "V"],
+                "description": "If you enjoy hiking, this is the perfect date for you. Usually hiking isn't seen as a first date, but with a host, you will have an enjoyable time."
+            },
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+                "name": "S.F. Coffee Festival",
+                "host": "Hanny N.",
+                "price": 30,
+                "restrictions": ["D", "N"],
+                "description": "Take the traditional coffee date to greater heights with the San Francisco Coffee Festival. Enjoy specialty roasters and coffee shops in an immersive experience."
+            }
+            
+            
+        ]
+    },
+    {
+        "name": "Highest Rated In Your Area",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+        "items": [
+            {
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+                "name": "Six Flags Date",
+                "host": "Brooke L.",
+                "price": 25,
+                "restrictions": ["G"],
+                "description": "Enjoy Six Flags Discovery Kingdom in Vallejo, CA. The park includes a variety of roller coasters and other amusement rides"
+            },
+            {
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+                "name": "Wine Tasting",
+                "host": "Eaters Collective",
+                "price": 100,
+                "restrictions": ["G"],
+                "description": "California plays an important role in producing some of the best wine in the nation. Take advantage of the opportunity by trying different flavors with your date."
+            },
+            {
+                "id": "759527CB-1064-4082-A527-F04698F9D18F",
+                "name": "Lands End",
+                "host": "Edward G.",
+                "price": 30,
+                "restrictions": ["D", "G"],
+                "description": "Located in Golden Gate National Recreational Area, Lands End offers numerous hiking trails and wonderful views for a relaxing experience."
+            }
+            
+        ]
+    }
+]
+

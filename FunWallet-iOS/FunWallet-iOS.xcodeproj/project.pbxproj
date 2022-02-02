@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1610FBF527A8752F00C9D7A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBF427A8752F00C9D7A9 /* HomeView.swift */; };
+		1610FBF927A8758700C9D7A9 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBF627A8758600C9D7A9 /* WishList.swift */; };
+		1610FBFA27A8758700C9D7A9 /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBF727A8758600C9D7A9 /* Wish.swift */; };
+		1610FBFB27A8758700C9D7A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBF827A8758600C9D7A9 /* MainView.swift */; };
+		1610FC0427A8759100C9D7A9 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBFC27A8758E00C9D7A9 /* Preferences.swift */; };
+		1610FC0527A8759100C9D7A9 /* HomeSelectLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBFD27A8758E00C9D7A9 /* HomeSelectLocation.swift */; };
+		1610FC0627A8759100C9D7A9 /* SelectLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBFE27A8758E00C9D7A9 /* SelectLocation.swift */; };
+		1610FC0727A8759100C9D7A9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FBFF27A8758E00C9D7A9 /* Helper.swift */; };
+		1610FC0827A8759100C9D7A9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC0027A8758F00C9D7A9 /* Profile.swift */; };
+		1610FC0A27A8759100C9D7A9 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC0227A8758F00C9D7A9 /* Events.swift */; };
+		1610FC0B27A8759100C9D7A9 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 1610FC0327A8759000C9D7A9 /* events.json */; };
+		1610FC0D27A87D7500C9D7A9 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC0C27A87D7500C9D7A9 /* CreateProfile.swift */; };
+		1610FC0F27A8CAF900C9D7A9 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC0E27A8CAF900C9D7A9 /* OnboardingContentView.swift */; };
+		1610FC1127A8CEA900C9D7A9 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC1027A8CEA900C9D7A9 /* OnboardingContainerView.swift */; };
+		1610FC1327A8CF0B00C9D7A9 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC1227A8CF0B00C9D7A9 /* Features.swift */; };
+		1610FC1527A9C48F00C9D7A9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1610FC1427A9C48F00C9D7A9 /* UserData.swift */; };
+		16F9DBA227A8321800665012 /* FunWallet_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9DBA127A8321800665012 /* FunWallet_iOSApp.swift */; };
+		16F9DBA427A8321800665012 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9DBA327A8321800665012 /* ImagePicker.swift */; };
+		16F9DBA627A8321C00665012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F9DBA527A8321C00665012 /* Assets.xcassets */; };
+		16F9DBA927A8321C00665012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F9DBA827A8321C00665012 /* Preview Assets.xcassets */; };
+		16F9DBB027A8323E00665012 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9DBAF27A8323E00665012 /* LoginView.swift */; };
+		16F9DBC627A8433D00665012 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9DBC527A8433D00665012 /* FirebaseManager.swift */; };
+		16F9DBCF27A8495200665012 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F9DBCE27A8495200665012 /* GoogleService-Info.plist */; };
+		16F9DBD927A8637C00665012 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 16F9DBD827A8637C00665012 /* FirebaseAuth */; };
+		16F9DBDB27A8637C00665012 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 16F9DBDA27A8637C00665012 /* FirebaseFirestore */; };
+		16F9DBDD27A8637C00665012 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 16F9DBDC27A8637C00665012 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1610FBF427A8752F00C9D7A9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1610FBF627A8758600C9D7A9 /* WishList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		1610FBF727A8758600C9D7A9 /* Wish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		1610FBF827A8758600C9D7A9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1610FBFC27A8758E00C9D7A9 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		1610FBFD27A8758E00C9D7A9 /* HomeSelectLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSelectLocation.swift; sourceTree = "<group>"; };
+		1610FBFE27A8758E00C9D7A9 /* SelectLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocation.swift; sourceTree = "<group>"; };
+		1610FBFF27A8758E00C9D7A9 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1610FC0027A8758F00C9D7A9 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1610FC0227A8758F00C9D7A9 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		1610FC0327A8759000C9D7A9 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		1610FC0C27A87D7500C9D7A9 /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		1610FC0E27A8CAF900C9D7A9 /* OnboardingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentView.swift; sourceTree = "<group>"; };
+		1610FC1027A8CEA900C9D7A9 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		1610FC1227A8CF0B00C9D7A9 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		1610FC1427A9C48F00C9D7A9 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		16F9DB9E27A8321800665012 /* FunWallet-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FunWallet-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F9DBA127A8321800665012 /* FunWallet_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWallet_iOSApp.swift; sourceTree = "<group>"; };
+		16F9DBA327A8321800665012 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		16F9DBA527A8321C00665012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16F9DBA827A8321C00665012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16F9DBAF27A8323E00665012 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		16F9DBC527A8433D00665012 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		16F9DBCE27A8495200665012 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16F9DBD227A849EA00665012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F9DB9B27A8321800665012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F9DBD927A8637C00665012 /* FirebaseAuth in Frameworks */,
+				16F9DBDB27A8637C00665012 /* FirebaseFirestore in Frameworks */,
+				16F9DBDD27A8637C00665012 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F9DB9527A8321800665012 = {
+			isa = PBXGroup;
+			children = (
+				16F9DBA027A8321800665012 /* FunWallet-iOS */,
+				16F9DB9F27A8321800665012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16F9DB9F27A8321800665012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F9DB9E27A8321800665012 /* FunWallet-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F9DBA027A8321800665012 /* FunWallet-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				16F9DBD227A849EA00665012 /* Info.plist */,
+				16F9DBCE27A8495200665012 /* GoogleService-Info.plist */,
+				16F9DBA127A8321800665012 /* FunWallet_iOSApp.swift */,
+				1610FC1227A8CF0B00C9D7A9 /* Features.swift */,
+				1610FC0E27A8CAF900C9D7A9 /* OnboardingContentView.swift */,
+				1610FC1027A8CEA900C9D7A9 /* OnboardingContainerView.swift */,
+				16F9DBAF27A8323E00665012 /* LoginView.swift */,
+				1610FC1427A9C48F00C9D7A9 /* UserData.swift */,
+				1610FC0C27A87D7500C9D7A9 /* CreateProfile.swift */,
+				1610FBFC27A8758E00C9D7A9 /* Preferences.swift */,
+				1610FBFE27A8758E00C9D7A9 /* SelectLocation.swift */,
+				16F9DBC527A8433D00665012 /* FirebaseManager.swift */,
+				16F9DBA327A8321800665012 /* ImagePicker.swift */,
+				1610FBF427A8752F00C9D7A9 /* HomeView.swift */,
+				1610FBF827A8758600C9D7A9 /* MainView.swift */,
+				1610FBF727A8758600C9D7A9 /* Wish.swift */,
+				1610FC0227A8758F00C9D7A9 /* Events.swift */,
+				1610FBF627A8758600C9D7A9 /* WishList.swift */,
+				1610FBFF27A8758E00C9D7A9 /* Helper.swift */,
+				1610FBFD27A8758E00C9D7A9 /* HomeSelectLocation.swift */,
+				1610FC0027A8758F00C9D7A9 /* Profile.swift */,
+				1610FC0327A8759000C9D7A9 /* events.json */,
+				16F9DBA527A8321C00665012 /* Assets.xcassets */,
+				16F9DBA727A8321C00665012 /* Preview Content */,
+			);
+			path = "FunWallet-iOS";
+			sourceTree = "<group>";
+		};
+		16F9DBA727A8321C00665012 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16F9DBA827A8321C00665012 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F9DB9D27A8321800665012 /* FunWallet-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F9DBAC27A8321C00665012 /* Build configuration list for PBXNativeTarget "FunWallet-iOS" */;
+			buildPhases = (
+				16F9DB9A27A8321800665012 /* Sources */,
+				16F9DB9B27A8321800665012 /* Frameworks */,
+				16F9DB9C27A8321800665012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunWallet-iOS";
+			packageProductDependencies = (
+				16F9DBD827A8637C00665012 /* FirebaseAuth */,
+				16F9DBDA27A8637C00665012 /* FirebaseFirestore */,
+				16F9DBDC27A8637C00665012 /* FirebaseStorage */,
+			);
+			productName = "FunWallet-iOS";
+			productReference = 16F9DB9E27A8321800665012 /* FunWallet-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F9DB9627A8321800665012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					16F9DB9D27A8321800665012 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 16F9DB9927A8321800665012 /* Build configuration list for PBXProject "FunWallet-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16F9DB9527A8321800665012;
+			packageReferences = (
+				16F9DBD727A8637C00665012 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 16F9DB9F27A8321800665012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F9DB9D27A8321800665012 /* FunWallet-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F9DB9C27A8321800665012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610FC0B27A8759100C9D7A9 /* events.json in Resources */,
+				16F9DBA927A8321C00665012 /* Preview Assets.xcassets in Resources */,
+				16F9DBCF27A8495200665012 /* GoogleService-Info.plist in Resources */,
+				16F9DBA627A8321C00665012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F9DB9A27A8321800665012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610FC1327A8CF0B00C9D7A9 /* Features.swift in Sources */,
+				1610FC0627A8759100C9D7A9 /* SelectLocation.swift in Sources */,
+				1610FC0527A8759100C9D7A9 /* HomeSelectLocation.swift in Sources */,
+				1610FC1527A9C48F00C9D7A9 /* UserData.swift in Sources */,
+				1610FC0D27A87D7500C9D7A9 /* CreateProfile.swift in Sources */,
+				1610FBFA27A8758700C9D7A9 /* Wish.swift in Sources */,
+				1610FC0827A8759100C9D7A9 /* Profile.swift in Sources */,
+				1610FBFB27A8758700C9D7A9 /* MainView.swift in Sources */,
+				1610FC0427A8759100C9D7A9 /* Preferences.swift in Sources */,
+				16F9DBC627A8433D00665012 /* FirebaseManager.swift in Sources */,
+				1610FC1127A8CEA900C9D7A9 /* OnboardingContainerView.swift in Sources */,
+				16F9DBB027A8323E00665012 /* LoginView.swift in Sources */,
+				16F9DBA427A8321800665012 /* ImagePicker.swift in Sources */,
+				1610FBF527A8752F00C9D7A9 /* HomeView.swift in Sources */,
+				1610FC0727A8759100C9D7A9 /* Helper.swift in Sources */,
+				1610FC0A27A8759100C9D7A9 /* Events.swift in Sources */,
+				16F9DBA227A8321800665012 /* FunWallet_iOSApp.swift in Sources */,
+				1610FC0F27A8CAF900C9D7A9 /* OnboardingContentView.swift in Sources */,
+				1610FBF927A8758700C9D7A9 /* WishList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16F9DBAA27A8321C00665012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16F9DBAB27A8321C00665012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16F9DBAD27A8321C00665012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunWallet-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = A32W4XQ7AX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FunWallet-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fun-wallet-jacob-bube.FunWallet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16F9DBAE27A8321C00665012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunWallet-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = A32W4XQ7AX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FunWallet-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fun-wallet-jacob-bube.FunWallet-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F9DB9927A8321800665012 /* Build configuration list for PBXProject "FunWallet-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F9DBAA27A8321C00665012 /* Debug */,
+				16F9DBAB27A8321C00665012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F9DBAC27A8321C00665012 /* Build configuration list for PBXNativeTarget "FunWallet-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F9DBAD27A8321C00665012 /* Debug */,
+				16F9DBAE27A8321C00665012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16F9DBD727A8637C00665012 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16F9DBD827A8637C00665012 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16F9DBD727A8637C00665012 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		16F9DBDA27A8637C00665012 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16F9DBD727A8637C00665012 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		16F9DBDC27A8637C00665012 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16F9DBD727A8637C00665012 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16F9DB9627A8321800665012 /* Project object */;
+}
